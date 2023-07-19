@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Leave System</title>
+
+  <!-- Eternal CSS -->
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/iziToast.min.css">
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+</head>
+
+<body>
+
+
+
+  <div class="row">
+    <div class="col-6">
+      <div class="login-image d-none d-sm-block">
+        <img src="https://img.freepik.com/free-vector/tablet-login-concept-illustration_114360-7883.jpg?w=740&t=st=1689761154~exp=1689761754~hmac=b9df264c64f2f3e11520321680fbbbca7508ef19b63cb6e1bf32485ace45f0e7" alt="" width="100%" height="100%" />
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="login">
+        <p class="heading">Leave System Login</p>
+
+        <form action="">
+
+        <div class="login-form pt-3">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+            <label for="floatingPassword">Password</label>
+          </div>
+
+          <div class="login-button pt-4">
+            <button class="btnn">Login</button>
+          </div>
+
+          </form>
+
+          <div class="forget-password text-center pt-4">
+            <a href="">Forget Password? Click here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <script src="js/iziToast.min.js"></script>
+
+  <script>
+    iziToast.warning({
+      title: 'Error',
+      message: 'Login error!',
+    });
+  </script>
+</body>
+
+</html>
